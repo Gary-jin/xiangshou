@@ -11,7 +11,8 @@ html,
 body {
     width: 100%;
     font-family: te;
-    background: url("../imgs/chengji/成绩.jpg");
+    /* background: url("../imgs/chengji/成绩.jpg"); */
+    background: #252637;
 }
 
 @font-face {
@@ -22,6 +23,11 @@ body {
 @font-face {
     font-family: te1;
     src: url("./../font/FZYTK.TTF")
+}
+
+@font-face {
+    font-family: "te1";
+    src: url('./../font/FZYTK.TTF') format('embedded-opentype');
 }
 
 @font-face {
@@ -118,20 +124,20 @@ body {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     list-style: none;
     -webkit-transform: translateY(-.1rem);
-            transform: translateY(-.1rem);
+    transform: translateY(-.1rem);
 }
 
 .first-top>li:nth-child(1)>img {
     width: .3rem;
     height: .4rem;
     -webkit-transform: translateY(.12rem);
-            transform: translateY(.12rem);
+    transform: translateY(.12rem);
 }
 
 .first-top>li:nth-child(2) {
@@ -176,7 +182,7 @@ body {
     width: .42rem;
     height: .4rem;
     -webkit-transform: translateY(.12rem);
-            transform: translateY(.12rem);
+    transform: translateY(.12rem);
 }
 
 .s {
@@ -194,7 +200,7 @@ body {
     border-radius: .1rem;
     margin: .18rem auto;
     -webkit-transform: translateX(.3rem);
-            transform: translateX(.3rem);
+    transform: translateX(.3rem);
 }
 
 .swiper-pagination-bullet {
@@ -241,8 +247,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-top: .22rem;
 }
 
@@ -287,7 +293,7 @@ body {
     background: url("../imgs/shouye/j1.png") no-repeat center center;
     background-size: 3.3rem 1.8rem;
     -webkit-transform: translateX(.3rem);
-            transform: translateX(.3rem);
+    transform: translateX(.3rem);
 }
 
 .good-ul>li:nth-child(2) {
@@ -296,7 +302,7 @@ body {
     background: url("../imgs/shouye/j2.png") no-repeat center center;
     background-size: 3.3rem 1.8rem;
     -webkit-transform: translateX(-.3rem);
-            transform: translateX(-.3rem);
+    transform: translateX(-.3rem);
 }
 
 .div1 {
@@ -315,8 +321,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-top: .22rem;
 }
 
@@ -333,12 +339,12 @@ body {
 
 .huose-ul>li:nth-child(1) {
     -webkit-transform: translateX(.3rem);
-            transform: translateX(.3rem);
+    transform: translateX(.3rem);
 }
 
 .huose-ul>li:nth-child(2) {
     -webkit-transform: translateX(-.3rem);
-            transform: translateX(-.3rem);
+    transform: translateX(-.3rem);
 }
 
 .huose-ul>li>p:nth-child(2) {
@@ -411,7 +417,7 @@ body {
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-1.375rem);
-            transform: translateX(-1.375rem);
+    transform: translateX(-1.375rem);
 }
 
 .total-left>p:nth-child(1) {
@@ -467,7 +473,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin-top: .5rem;
 }
 
@@ -531,7 +537,7 @@ body {
     display: inline-block;
     font-size: .26rem;
     -webkit-transform: translateY(-.15rem);
-            transform: translateY(-.15rem);
+    transform: translateY(-.15rem);
 }
 
 .list-foot>p:nth-child(5) {
@@ -561,7 +567,7 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     /*margin-top: .5rem;*/
 }
 

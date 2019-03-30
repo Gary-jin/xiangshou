@@ -21,6 +21,11 @@ body {
     src: url("./../font/PingFang\ Medium.ttf")
 }
 
+@font-face {
+    font-family: 'te';
+    src: url('./../font/PingFang\ Medium.ttf?#font-spider') format('embedded-opentype');
+}
+
 .men_body {
     overflow: hidden;
 }
